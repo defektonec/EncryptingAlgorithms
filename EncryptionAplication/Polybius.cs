@@ -13,7 +13,7 @@ namespace EncryptionAplication
 {
     public partial class Polybius : Form
     {
-        private PolybiusClass polybius = new PolybiusClass();
+        private PolybiusCipher polybius = new PolybiusCipher();
         public Polybius()
         {
             InitializeComponent();

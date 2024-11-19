@@ -161,6 +161,7 @@
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Polybius";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "Polybius";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

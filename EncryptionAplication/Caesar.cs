@@ -13,7 +13,7 @@ namespace EncryptionAplication
 {
     public partial class Caesar : Form
     {
-        private CaesarClass caesar = new CaesarClass();
+        private CaesarCipher caesar = new CaesarCipher();
         public Caesar()
         {
             InitializeComponent();

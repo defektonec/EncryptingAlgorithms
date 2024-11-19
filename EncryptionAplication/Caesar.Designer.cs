@@ -171,6 +171,7 @@
             Controls.Add(groupEncryption);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Caesar";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "Caesar";
             groupEncryption.ResumeLayout(false);
             groupEncryption.PerformLayout();

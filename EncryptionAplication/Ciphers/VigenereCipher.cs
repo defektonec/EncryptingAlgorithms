@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace EncryptionAplication
 {
-    public class VigenereClass
+    public class VigenereCipher
     {
         private char[,] table = new char[polishAlphabet.Length + 1, polishAlphabet.Length + 1];
 
         private static string polishAlphabet = "aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźż";
 
-        public VigenereClass()
+        public VigenereCipher()
         {
             // Set the top-left corner to be empty
             table[0, 0] = ' ';

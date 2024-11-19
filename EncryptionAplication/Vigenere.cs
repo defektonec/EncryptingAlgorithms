@@ -13,7 +13,7 @@ namespace EncryptionAplication
 {
     public partial class Vigenere : Form
     {
-        private VigenereClass vigenere = new VigenereClass();
+        private VigenereCipher vigenere = new VigenereCipher();
         public Vigenere()
         {
             InitializeComponent();

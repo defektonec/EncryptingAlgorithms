@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace EncryptionAplication.EncryptionClasses
 {
-    public class PolybiusClass
+    public class PolybiusCipher
     {
 
         Dictionary<char, (char, char)> HashTable = new Dictionary<char, (char, char)>()

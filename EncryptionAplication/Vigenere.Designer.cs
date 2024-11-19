@@ -172,6 +172,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Vigenere";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Vigenere";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
